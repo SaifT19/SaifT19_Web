@@ -1,0 +1,264 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@SaifT19 
+urvashidbhavsar
+/
+4_Aug_WD_batch_HTML
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Add files via upload
+ main
+@urvashidbhavsar
+urvashidbhavsar committed 32 minutes ago 
+1 parent e45639d commit f4aab81e4b60e524d83ff2b9f1ecd39a7e811c4c
+Show file tree Hide file tree
+Showing 16 changed files with 194 additions and 0 deletions.
+Filter changed files
+ 71  
+25-08-2022/HTML_templete/SimpleHomePage.html
+@@ -0,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <table
+        border="0"
+        cellpadding="10px"
+        style="width: 100%; text-align: center"
+      >
+        <tr>
+          <td><img src="image/logo.png" height="50px" width="50px" /></td>
+          <td>
+            <table border="0" cellpadding="10px" style="width: 100%">
+              <tr>
+                <td><a href="#" style="color: brown">Home</a></td>
+                <td><a href="#" style="color: brown">Gallary</a></td>
+                <td><a href="#" style="color: brown">About</a></td>
+                <td><a href="#" style="color: brown">Contect</a></td>
+                <td><a href="#" style="color: brown">Help</a></td>
+                <td>
+                  <a href="login.html" style="color: brown">Login/Signup</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </header>
+    <!-- horizontal line -->
+    <!-- <hr size="2px" width="50%" color="blue" align="left" /> 
+    non-content tag-->
+    <hr size="2px" color="brown" />
+    <!-- take auto new line -->
+    <section style="height: 500px; width: 100%">
+      <center>
+        <table border="0" cellpadding="20px">
+          <tr>
+            <td><img src="image/img1.jpg" height="200px" width="200px" /></td>
+            <td><img src="image/img2.jfif" height="200px" width="200px" /></td>
+            <td><img src="image/img5.webp" height="200px" width="200px" /></td>
+            <td colspan="2">
+              <img src="image/img6.jpg" height="200px" width="400px" />
+            </td>
+          </tr>
+          <tr>
+            <td><img src="image/img3.jfif" height="200px" width="200px" /></td>
+            <td colspan="2">
+              <img src="image/img4.jpg" height="200px" width="400px" />
+            </td>
+            <td>
+              <img src="image/img7.jpg" height="200px" width="200px" />
+            </td>
+            <td><img src="image/img8.webp" height="200px" width="200px" /></td>
+            <td>
+              <img src="collegepics6.jpg" alt="" height="200px" width="200px">
+            </td>
+          </tr>
+        </table>
+      </center>
+    </section>
+
+    <hr size="2px" color="brown" />
+
+    <footer style="height: 100px; width: 100%">
+      <h4 align="center">Copyright from 2022</h4>
+    </footer>
+  </body>
+</html>
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <form name="form1" action="SimpleHomePage.html" method="post">
+        <table
+          border="0"
+          cellpadding="10px"
+          style="
+            width: 30%;
+            text-align: center;
+            border-style: solid;
+            border-width: 2px;
+            background-color: rgb(166, 156, 143);
+          "
+        >
+          <tr>
+            <td><h1>User Login</h1></td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                placeholder="Enter Username"
+                style="height: 30px; width: 200px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="password"
+                placeholder="Enter Password"
+                style="height: 30px; width: 200px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="submit"
+                name="submit"
+                value="Login"
+                style="height: 30px; width: 200px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><a href="">Forgot Password?</a></td>
+          </tr>
+        </table>
+      </form>
+    </center>
+  </body>
+</html>
+ 22  
+25-08-2022/SVG/svg_circle.html
+@@ -0,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- svg tag are updated in HTML5 -->
+    <svg height="400" width="400">
+      <circle
+        cx="200"
+        cy="200"
+        r="40"
+        stroke="red"
+        fill="yellow"
+        stroke-width="5px"
+      ></circle>
+    </svg>
+  </body>
+</html>
+ 20  
+25-08-2022/SVG/svg_rec.html
+@@ -0,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <svg height="500px" width="500px">
+      <rect
+        height="200"
+        width="300"
+        stroke="blue"
+        fill="gray"
+        stroke-width="6px"
+      ></rect>
+    </svg>
+  </body>
+</html>
+ 20  
+25-08-2022/SVG/svg_tag_polygon.html
+@@ -0,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- used for draw some graphics
+    svg - scalable vector graphics -->
+    <svg>
+      <polygon
+        points="70,40,210,145,35,105"
+        stroke="black"
+        fill="red"
+      ></polygon>
+    </svg>
+  </body>
+</html>
+0 comments on commit f4aab81
+@SaifT19
+ 
+Add heading textAdd bold text, <Ctrl+b>Add italic text, <Ctrl+i>
+Add a quote, <Ctrl+Shift+.>Add code, <Ctrl+e>Add a link, <Ctrl+k>
+Add a bulleted list, <Ctrl+Shift+8>Add a numbered list, <Ctrl+Shift+7>Add a task list, <Ctrl+Shift+l>
+Directly mention a user or team
+Reference an issue, pull request, or discussion
+Add saved reply
+Leave a comment
+No file chosen
+Attach files by dragging & dropping, selecting or pasting them.
+Styling with Markdown is supported
+ You’re not receiving notifications from this thread.
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
