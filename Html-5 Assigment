@@ -1,0 +1,55 @@
+                                         Html5 Assignment
+
+(1) what are the new tags added in Html5?
+    .(MOVED) article
+    .(MOVED) aside
+     .audio
+     .canvas
+     .command
+     .datalist
+     .details
+     .embed
+     .figcaption
+     .figure
+     .footer
+     .header
+     .hgroup
+     .keygen
+     .mark
+     .math
+     .meter
+     .nav
+     .output
+     .progress
+     .rp
+     .rt
+     .ruby
+     .section
+     .source
+     .summary
+     .svg
+     .time
+     .track
+     .video
+     .wbr
+
+(2) how to embed audio and video in a webpage ?
+To embed video in HTML, we use the <video> tag. It contains one or more video sources at a time using <source> tag. It supports MP4, WebM, and Ogg in all modern browsers.
+
+(3) semantic element in Html5?
+A semantic element clearly describes its meaning to both the browser and the developer.
+
+Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+
+Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+
+(4) canvas and svg tags
+
+SVG
+
+SVG gives better performance with smaller number of objects or larger surface
+SVG can be modified through script and CSS.
+
+Canvas
+Canvas gives better performance with smaller surface or larger number of objects.
+Canvas can be modified through script only.
