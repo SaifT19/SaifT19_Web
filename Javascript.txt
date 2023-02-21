@@ -1,0 +1,104 @@
+(1) What is JavaScript?
+The JavaScript programming language is text-based and can be used on both client and server-side. It controls multimedia within web pages and allows them to become interactive. JavaScript empowers a developer to do many things like adding animation to images or updating content automatically on a page. 
+
+(2) What is the use of isNaN function?
+isNaN is used to test if something is a number or not. It will return true if whatever is passed will not coerce into a proper number, like any string, object or the literal value NaN.
+
+(3) What is negative Infinity?
+- Negative infinity is a number in java script, which is derived by 'dividing negative number by zero'.
+- A number object needs not to be created to access this static property.
+- The value of negative infinity is the same as the negative value of the infinity property of the global object.
+
+(4)  Which company developed JavaScript?
+The first JavaScript engine was created by Brendan Eich at Netscape, for the Netscape Navigator Web browser. The engine, code-named SpiderMonkey, is implemented in C. It has since been updated (in JavaScript 1.5) to conform to ECMAScript 3.
+
+(5) What are undeclared and undefined variables?
+It occurs when we try to access any variable that is not initialized or declared earlier using var or const keyword. If we use ‘type of’ operator to get the value of an undeclared variable, we will face the runtime error with return value as “undefined”. The scope of the undeclared variables is always global.
+ It occurs when a variable has been declared but has not been assigned with any value. Undefined is not a keyword.
+
+(6) Write the code for adding new elements dynamically?
+<html>
+<title>
+    Adding new elements dynamically
+</title>
+<body>
+    <button id="button">Hit me to add elements dynamically</button>
+    <h3 id="heading_A"></h3>
+    <h5 id="alert"></h5>
+    <script>
+        const button = document.getElementById('button');
+        const text = document.getElementById('heading_A');
+        const alrt = document.getElementById('alert');
+        button.onclick = () => {
+            const name = prompt('What is your name?');
+            const course = prompt('Which Course we are learning ?');
+            alert(`Hello ${name}, Welcome to our group...!`+ "\n" + `We are learning ${course}`);
+            text.textContent = `Welcome ${name}to our group...!` + `We are learning ${course}`;
+           alert(button.textContent);
+           text.textContent = `Welcome ${name}to our group...!` + `We are learning ${course}`;
+      }
+    </script>
+</body>
+
+</html>
+
+(7)  What is the difference between ViewState and SessionState?
+ The values of controls of a particular page of the client browser is persisted by ViewState at the time of post back operation is done. If the user requests another page, the data of previous page is no longer available.
+
+- The data of a particular server persists in the server by SessionState. The availability of the user data is up to the completion of a session or closure of the browser.
+
+(8) What is === operator?
+
+In the case of equality comparison, we use === operator, and in the case of inequality comparison, we use !== operator. Return type: boolean. It returns either true or false. The === operator compares operands and returns true if both operands are of the same data type and have some value, otherwise, it returns false.
+
+(9) How can the style/class of an element be changed?
+getElementById () method is used to return the element in the document with the “id” attribute and the “className” attribute can be used to change/append the class of the element.
+
+(10) How to read and write a file using JavaScript?
+There are two ways to do it:
+
+1. Using JavaScript extensions (runs from JavaScript Editor), or
+
+2. Using a web page and ActiveX objects (Internet Explorer only)
+
+In JavaScript Extensions, you can use
+fh = fopen(getScriptPath(), 0); to open a file
+
+(11) What are all the looping structures in JavaScript?
+1)	for - loops through a block of code a number of times.
+2)	for/in - loops through the properties of an object.
+3)	for/of - loops through the values of an iterable object.
+4)	while - loops through a block of code while a specified condition is true
+(12) How can you convert the string of any base to an integer in JavaScript?
+1.	Use Integer. parseInt() to Convert a String to an Integer. This method returns the string as a primitive type int. ...
+2.	Use Integer. valueOf() to Convert a String to an Integer. This method returns the string as an integer object.
+
+(13) What is the function of the delete operator?
+
+The delete operator in JavaScript is used to delete an object’s property.
+If it is used to delete an object property that already exists, it returns true and removes the property from the object. However, deleting an object property that doesn’t exist will not affect the object, but will still return true.
+The only time false will be returned is when the delete operator is used to delete a variable or a function.
+
+(14)  What are all the types of Pop up boxes available in JavaScript?
+Popup boxes are the most useful way of showing a warning or any other important information to website visitors. JavaScript has three different types of popup box available for you to use. They are:
+	alert()
+	confirm()
+	prompt()
+(15) What is the use of Void (0)?
+It is often used when inserting an expression in a web page might produce some unwanted effect. To remove this effect, “javascript:void(0)” is used. This expression returns undefined primitive value. This is often used with hyperlinks.
+
+(16) How can a page be forced to load another page in JavaScript?
+Approach: We can use window. location property inside the script tag to forcefully load another page in Javascript. 
+It is a reference to a Location object that is it represents the current location of the document. We can change the URL of a window by accessing it.
+
+
+(17) What are the disadvantages of using innerhtml in javascript?
+
+ Disadvantages of innerHTML
+
+      .Event handlers attached to any DOM element are preserved.
+      .Replacement is done everywhere.
+      .It is not possible to append innerHTML.
+      .Breaks the document.
+      .Used for Cross-site Scripting.
+
